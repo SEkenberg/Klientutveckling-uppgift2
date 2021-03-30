@@ -34,5 +34,11 @@ function createProducts(data) {
     wrapper.appendChild(button);
   }
 }
+function clearCart(){
+    localStorage.setItem("products", JSON.stringify([]));
+    let products = document.getElementById("products");
+    products.innerHTML = '';
+
+}
 
 readFromLocalStorage();
