@@ -1,0 +1,14 @@
+.form-control{
+    display:flex;
+    width: 65%;
+    justify-content: space-between;
+}
+.product{
+    padding-top: 100px;
+}
+img{
+    width: 15%;
+}
+.button{
+    margin-bottom: 20px;
+}
