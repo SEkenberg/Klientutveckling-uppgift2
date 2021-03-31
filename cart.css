@@ -1,5 +1,8 @@
 .form-control {
-  display: flex;
-  width: 65%;
-  justify-content: space-between;
+  display: grid;
+  width: 80%;
 }
+h1{
+    text-align: center;
+}
+

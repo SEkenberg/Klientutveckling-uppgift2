@@ -32,6 +32,8 @@ function createProducts(data) {
     products.appendChild(productPrice);
 
     var button = document.createElement("button");
+    button.classList.add("btn");
+    button.classList.add("btn-primary");
     button.id = data[i].id;
     button.onclick = function (event, x) {
       const pros = JSON.parse(localStorage.getItem("products"));

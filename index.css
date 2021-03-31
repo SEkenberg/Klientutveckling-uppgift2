@@ -3,6 +3,12 @@
     width: 65%;
     justify-content: space-between;
 }
+h1{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
 .product{
     padding-top: 100px;
 }
